@@ -1,10 +1,22 @@
 Function Tricks
----------------
+===============
 
-lambdas
-closures
-map
-state machines and bounce
-	video game scene transition
-generator-based coroutines
-	video game animation
+The "slides" for this talk can be found here:
+http://github.com/jjinux/function_tricks/tree/master
+
+The video game shown can be found here:
+See: http://jjinux.blogspot.com/2007/09/python-pyweek.html
+
+Shannon -jj Behrens
+jjinux@gmail.com
+
+Outline
+-------
+
+Lambdas
+Closures
+Map
+State machines and bounce
+	Video game scene transition
+Generator-based coroutines
+	Video game animation
