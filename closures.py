@@ -41,3 +41,18 @@ glen_greeter()
 
 print "closure:", jj_greeter.func_closure
 jj_greeter.__call__()
+
+
+# Here's how you would accomplish the same thing using an object.
+
+class Greeter:
+
+    def __init__(self, name):
+        self._name = name
+
+    def __call__(self):
+        print "Hello,", self._name
+
+
+mike_greeter = Greeter('Mike')
+mike_greeter()
